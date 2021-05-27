@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Myapp</string>
+    <array name="items">
+        <item>Select Company</item>
+        <item>B00001</item>
+        <item>B00002</item>
+        <item>B00003</item>
+        <item>B00004</item>
+        <item>B00005</item>
+        <item>B00006</item>
+    </array>
+
+    <array name="items1">
+        <item>Select Branch</item>
+        <item>BO:milllennia global soft</item>
+
+
+    </array>
+
+    <array name="option">
+        <item>Customer</item>
+        <item>Dealer</item>
+
+    </array>
+
+
+    <array name="option1">
+        <item>Select_Your_Product</item>
+        <item>0001</item>
+        <item>0002</item>
+        <item>0003</item>
+        <item>0004</item>
+        <item>0005</item>
+
+    </array>
+
+    <array name="items2">
+        <item>Select_Your_Product</item>
+        <item>pulsar</item>
+        <item>hero</item>
+        <item>honda</item>
+        <item>yamaha</item>
+        <item>apache</item>
+        <item>duke</item>
+
+    </array>
+    <array name="items3">
+        <item>Type_of_Enquiries</item>
+
+
+    </array>
+
+</resources>

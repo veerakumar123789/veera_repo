@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary" tools:ignore="MissingDefaultResource">#146799</color>
+    <color name="colorPrimaryDark" tools:ignore="MissingDefaultResource">#052336</color>
+    <color name="colorAccent" tools:ignore="MissingDefaultResource">#2196F3</color>
+
+
+
+    <color name="hintColor" tools:ignore="MissingDefaultResource">#d0d0d0</color>
+    <color name="borderColorNonSelect" tools:ignore="MissingDefaultResource">#c4c4c4</color>
+    <color name="borderColorSelect" tools:ignore="MissingDefaultResource">#1b9eea</color>
+    <color name="textColorGray" tools:ignore="MissingDefaultResource">#767676</color>
+    <color name="textColorBlue" tools:ignore="MissingDefaultResource">#1a73e9</color>
+    <color name="buttonGray" tools:ignore="MissingDefaultResource">#afafaf</color>
+    <color name="buttonBlue" tools:ignore="MissingDefaultResource">#286992</color>
+    <color name="orange" tools:ignore="MissingDefaultResource">#ffc425</color>
+    <color name="black">#000000</color>
+
+
+    <color name="header_bg" tools:ignore="MissingDefaultResource">#286992</color>
+    <color name="blue_mat" tools:ignore="MissingDefaultResource">#558CAC</color>
+
+    <color name="white">#FFFFFF</color>
+    ?
+    <color name="yellow" tools:ignore="MissingDefaultResource">#F5A623</color>
+    <color name="gray" tools:ignore="MissingDefaultResource">#809E9E9E</color>
+    <color name="_dark_gray" tools:ignore="MissingDefaultResource">#80484848</color>
+
+    <color name="red" tools:ignore="MissingDefaultResource">#ff2717</color>
+    <color name="blue_wave1" tools:ignore="MissingDefaultResource">#83ACE6</color>
+    <color name="blue_wave2" tools:ignore="MissingDefaultResource">#0000ff</color>
+
+
+    <color name="blue_light" tools:ignore="MissingDefaultResource">#E0EBFA</color>
+
+
+
+</resources>

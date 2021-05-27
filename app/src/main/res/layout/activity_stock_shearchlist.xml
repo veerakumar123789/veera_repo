@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--<HorizontalScrollView android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android">-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroud"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_marginTop="30dp"
+         android:text="ProductInfo"
+         android:textSize="20dp"
+         android:textColor="@color/black"
+         >
+
+
+     </TextView>
+<!--    <ListView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:id="@+id/listView"-->
+<!--        android:divider="#ad5"-->
+<!--        android:dividerHeight="2dp"-->
+<!--        android:layout_below="@+id/searchView"/>-->
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:queryHint="PartNo/Product_Name"
+        android:iconifiedByDefault="false"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerView"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+
+        tools:listitem="@layout/row_layout"
+        android:layout_below="@+id/searchView"
+        />
+
+
+
+</RelativeLayout>
+<!--</HorizontalScrollView>-->
+

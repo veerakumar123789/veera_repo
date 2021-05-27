@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    tools:context=".modal.Customer_enquiries">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp"
+        android:id="@+id/myContactList" />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:text="ADD"
+        android:padding="2dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="16dp" />
+</FrameLayout>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:background="@drawable/backgroud"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:text="Customer_Enquiries"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        >-->
+<!--    </TextView>-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/customer_name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Customer_name"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:textColorHint="@color/white" />-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/Company_Name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Company_Name"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginTop="130dp"-->
+<!--        android:textColorHint="@color/white" />-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/Loction"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Location"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginTop="180dp"-->
+<!--        android:textColorHint="@color/white" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/number"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Contact_number/Whatsapp_number"-->
+<!--        android:textStyle="bold"-->
+<!--        android:inputType="number"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginTop="230dp"-->
+<!--        android:textColorHint="@color/white" />-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/Email_id"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Email_id"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginTop="280dp"-->
+<!--        android:textColorHint="@color/white" />-->
+
+<!--   <LinearLayout-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="50dp"-->
+<!--       android:layout_marginStart="10dp"-->
+<!--       android:layout_marginLeft="10dp"-->
+<!--       android:layout_marginTop="330dp"-->
+<!--       android:layout_marginEnd="10dp"-->
+<!--       android:layout_marginRight="10sp"-->
+<!--       >-->
+
+<!--       <Spinner-->
+<!--           android:id="@+id/spinner1"-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="match_parent"-->
+<!--           android:entries="@array/option"-->
+<!--           >-->
+
+<!--       </Spinner>-->
+
+
+<!--   </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="380dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginRight="10sp"-->
+<!--        >-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:entries="@array/items2"-->
+<!--            >-->
+
+<!--        </Spinner>-->
+
+
+<!--    </LinearLayout>-->
+
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/quantity"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Quantity"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginTop="430dp"-->
+<!--        android:textColorHint="@color/white" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="480dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginRight="10sp"-->
+<!--        >-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:entries="@array/items2"-->
+<!--            >-->
+
+<!--        </Spinner>-->
+
+
+<!--    </LinearLayout>-->
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/save"-->
+<!--        android:layout_width="700dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--       android:layout_marginRight="150dp"-->
+<!--        android:layout_marginLeft="150dp"-->
+<!--        android:background="@drawable/bshape"-->
+<!--        android:foregroundGravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:text="SAVE"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="530dp"-->
+
+<!--        />-->
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/cancel"-->
+<!--        android:layout_width="650dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="220dp"-->
+<!--        android:background="@drawable/bshape"-->
+<!--        android:foregroundGravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:text="CANCEL"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="590dp"-->
+
+<!--        />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/Next"-->
+<!--        android:layout_width="650dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginLeft="220dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:background="@drawable/bshape"-->
+<!--        android:foregroundGravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:text="NEXT"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="590dp"-->
+
+<!--        />-->
+
+
+<!--</RelativeLayout>-->

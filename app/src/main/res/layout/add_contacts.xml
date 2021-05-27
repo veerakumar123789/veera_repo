@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Customer_Enquiries"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/customer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Customer_name"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+
+            android:textColorHint="@color/white" />
+
+
+        <EditText
+            android:id="@+id/Company_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company_Name"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+
+        <EditText
+            android:id="@+id/Loction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact_number/Whatsapp_number"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+
+        <EditText
+            android:id="@+id/Email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email_id"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginStart="10dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginEnd="10dp"
+           android:layout_marginRight="10sp"
+           >
+
+           <Spinner
+               android:id="@+id/spinner1"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:entries="@array/option"
+               >
+
+           </Spinner>
+
+
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10sp"
+            >
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries="@array/items2"
+                >
+
+            </Spinner>
+
+
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/quantity2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10sp"
+            >
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries="@array/items2"
+                >
+
+            </Spinner>
+
+
+        </LinearLayout>
+
+</LinearLayout>
